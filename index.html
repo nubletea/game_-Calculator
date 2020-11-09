@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaypleStory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="wepon_list">
+        <div class="tag">
+            <div class="wepon active">무기</div>
+            <div class="armor">방어구</div>
+        </div>
+        <form>
+            <label>
+                <input type="radio" class="level" name="level" value="130" checked>130
+                <input type="radio" class="level" name="level" value="140">140
+                <input type="radio" class="level" name="level" value="150">150
+                <input type="radio" class="level" name="level" value="160">160
+                <input type="radio" class="level" name="level" value="200">200
+            </label><br>
+            <label><input type="text" name="power" class="gettext power" placeholder="주스텟(전사:STR)을 적어주세요."></label><br>
+            <label><input type="text" name="power" class="gettext sub_power" placeholder="부스텟(전사:DEX)을 적어주세요."></label><br>
+            <label><input type="text" name="reinforce" class="gettext reinforce" placeholder="강화 횟수를 적어주세요."></label>
+        </form>
+        <a href="#" class="btn">계산기하기</a>
+    </div>
+    <div class="sum_value">
+        <span class="value">값 : <span></span></span>
+    </div>
+</div>
+<script src="script/script.js"></script>
+</body>
+</html>

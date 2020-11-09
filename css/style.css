@@ -1,0 +1,71 @@
+*{box-sizing: border-box;}
+body{
+    margin:0;
+    padding:0;
+    background: url(../images/pantom.png) no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: contain;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    color:#000;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* tag */
+.tag{
+    display:flex;
+}
+.tag div{
+    border:1px solid #ddd;
+    margin:1rem 1.7rem; 
+    width:70px;
+    height:70px;
+    text-align: center;
+    line-height: 70px;
+}
+.tag div.active{
+    background:#ddd;
+}
+/* gettext */
+.level{
+    margin-bottom: 15px;
+}
+.gettext{
+    width:250px;
+    height:50px;
+    margin-bottom: 10px;
+}
+.btn{
+    margin-top:20px;
+    margin-left:25px;
+    font-weight: 700;
+    border:1px solid #ddd;
+    display:block;
+    text-align: center;
+    line-height:50px;
+    font-size:1.5rem;
+    width:200px;
+    height:50px;
+    transition: 1s;
+}
+.btn:hover{
+    background:#fff;
+}
+/* sum_value */
+.sum_value{
+    margin-left:2rem;
+}
+.value span{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
